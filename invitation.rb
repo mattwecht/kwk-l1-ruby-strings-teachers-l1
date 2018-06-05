@@ -15,3 +15,5 @@ puts "Who is the host for this party?"
 host_name = gets.chomp.capitalize
 
 # Try starting out with puts'ing a string.
+puts "Dear #{guest_name},\n \n"
+puts "You are cordially invted to #{party_name} on #{date} at #{time}. Please RSVP no later than October 30.\n\n Sincerely,\n\n#{host_name}"
